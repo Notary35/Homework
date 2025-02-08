@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .icon img{
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: -550px;
+    background-color: rgba(194, 106, 106, 0.557);
+    width: max-content;
+}
+
+.link_menu {
+    text-align: center;
+    color: rgb(63, 45, 59);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    padding: 25px;
+    text-transform: uppercase; */
+    /* все буквы заглавными */
+    /* text-decoration: none;
+}
+
+.link_menu:hover {
+    text-decoration: underline;
+}
+
+.baner {
+    padding: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    background-color: bisque;
+} */
+
+/* 2-е меню */
+/*
+nav{
+    height: 50px;
+    background-color: cadetblue;
+    padding: 25px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;}
+
+nav .logo {
+    font-size: 26pt;
+    text-transform: uppercase;}
+
+nav .linkNew a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;}
+
+nav .linkNew{
+    display: flex;
+    gap: 20px;
+    display: none;
+}
+
+nav .MenuNew img {
+    width: 50px;}
+
+nav .linkNew a:hover {
+    color: white;
+} */
+
+/* nav .block2 {
+    width: 40%;
+} */
+
+/* 3-меню */
+
+/* nav{
+    height: 50px;
+    background-color: cadetblue;
+    padding: 25px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;}
+
+nav .logo {
+    font-size: 26pt;
+    text-transform: uppercase;}
+
+nav .linkNew a, nav .linkNew_two a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;} */
+
+/* nav .linkNew, nav .linkNew_two {
+    display: flex;
+    gap: 20px;}
+
+nav .linkNew_two{
+    display: none;}
+
+
+nav .linkNew a:hover, nav .linkNew_two a:hover {
+    color: white;}
+
+nav .MenuNew img {
+    width: 50px;}
+
+nav .MenuNew {
+    display: none;
+} */
+
+/* @media screen and (max-width: 600px){
+    nav .linkNew {
+        display: none;
+    }
+
+    nav .MenuNew{
+        display: block;
+    }
+
+    nav .linkNew_two{
+        display: none;      
+    }
+
+    nav .linkNew_two div {
+        position: absolute;
+        top: 90px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        background-color: rgb(126, 188, 188);
+    }
+
+/*
+    nav .linkNew_two a{
+        display: block;
+    } */
+/* }  */
+
+
+.navBar_deck{
+    background-color: beige;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px
+}
+
+/* .navBar_deck>div{
+    background-color: palegreen;
+} */
+
+.navBar_deck .logo{
+    text-transform: uppercase;
+    font-size: 32pt;
+}
+
+.navBar_deck .navBar_links a{
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+
+}
+
+.navBar_deck .navBar_links{
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    gap: 50px;
+}
+
+.navBar_deck .entry{
+    justify-self: end;
+    align-self: center;
+}
+
+.navBar_deck .entry button{
+    border: none;
+    background-color: rgb(76, 86, 224);
+    padding: 10px 20px;
+    font-size: 14pt;
+    color: white;
+}
+
+.navBar_moby{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .navBar_deck{
+        display: none;
+    }
+
+    .navBar_moby{
+        display: block;
+        background-color: pink;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+    }
+    .navBar_moby img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .navBar_moby .visual{
+        background-color: paleturquoise;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navBar_moby .visual .logo{
+        font-size: 22pt;
+        text-transform: uppercase;
+    }
+
+    .navBar_moby .visual .menu{
+        justify-self: end;
+    }
+
+    .navBar_moby .hidden{
+        display: none;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .navBar_moby .hidden .navBar_links a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .navBar_moby .hidden .entry{
+        justify-self: end;
+    }
+}
