@@ -1,0 +1,21 @@
+.upr_1 .list_one{
+    list-style-type: decimal-leading-zero;
+}
+
+.upr_1 .list_two{
+    list-style-type:upper-latin;
+    color: #4169e1
+}
+
+.upr_1 .list_three{
+    list-style-type:upper-roman;
+    color: gray
+}
+
+.upr_2_color ul{
+    list-style-type: lower-roman;
+}
+
+.upr_2_color ul span{
+    color: palevioletred;
+}

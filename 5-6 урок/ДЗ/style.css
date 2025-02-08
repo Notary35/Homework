@@ -1,0 +1,21 @@
+.lists{
+    list-style-type: decimal-leading-zero;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.roman{
+    list-style-type: upper-roman;
+}
+
+
+
+.letters{
+    list-style-type: lower-latin;
+}
+
+.lists ul span{
+    color: rgb(126, 46, 255);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
