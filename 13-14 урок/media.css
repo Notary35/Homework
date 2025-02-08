@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px){
+    nav .menu{
+        display: block;
+    }
+
+    nav .logo img{
+        width: 50px;
+    }
+
+    nav{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav .logo p{
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    nav .links, nav .mess{
+        display: none;
+    }
+
+    nav .menu{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
