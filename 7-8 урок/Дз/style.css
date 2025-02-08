@@ -1,0 +1,35 @@
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+
+.tab{
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.tab table{
+    margin: 45px;
+    border-collapse: collapse;
+    background: rgb(238, 238, 238);
+    font-family: Arial Narrow;
+    font-size: 25px;
+}
+
+.tab th{
+    padding: 20px 40px;
+}
+
+.tab table th:first-child, .tab table tr:first-child{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgb(108, 201, 255);
+}
+
+
+.tab table tr:nth-child(even){
+    background: rgb(190, 190, 190);
+}
