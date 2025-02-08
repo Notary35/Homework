@@ -1,0 +1,65 @@
+@media screen and (max-width: 850px){
+    body{
+        margin: 0 50px;
+    }
+    nav{
+        grid-template-columns: 1fr 1fr;
+        justify-items: end;
+    }
+
+    .project{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.493);
+        border-top: 1px solid rgba(255, 255, 255, 0.493);
+
+        background: rgba(0, 0, 0, 0.637);
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .project .block_two, .project .block_three{
+        grid-column: span 1;
+    }
+
+    .project img{
+        width: 100%;
+        height: max-content;
+    }
+
+    .block_one, .block_two, .block_three {
+        gap: 20px;
+    }
+    .block_one p, .block_two p, .block_three p {
+        font-size: 12px;
+    }
+
+    .block_one button, .block_two button, .block_three button{
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+
+    .head .networks{
+        display: none;
+    }
+
+    .photo img:nth-child(3){
+        display: none;
+    }
+    .photo img:nth-child(4){
+        display: none;
+    }
+    .photo img:nth-child(5){
+        display: none;
+    }
+
+    .photo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
